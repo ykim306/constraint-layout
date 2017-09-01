@@ -138,11 +138,12 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintVertical_chainStyle="packed" />
 
-    <android.support.constraint.Barrier
+    <android.support.constraint.Barrier>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/barrier"
-        app:barrierDirection="left"
-        app:constraint_referenced_ids="settings,cameraType" />
+        <!--app:barrierDirection="left"-->
+        <!--app:constraint_referenced_ids="settings,cameraType"-->
+    </android.support.constraint.Barrier>
 
 </android.support.constraint.ConstraintLayout>
