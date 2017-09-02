@@ -140,13 +140,12 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/settings"
         tools:layout_constraintBaseline_creator="0" />
 
-    <android.support.constraint.Barrier>
+    <android.support.constraint.Barrier
         android:id="@+id/labelBarrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        <!--app:barrierDirection="end"-->
-        <!--app:constraint_referenced_ids="cameraLabel,settingsLabel"-->
-    </android.support.constraint.Barrier>
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="cameraLabel,settingsLabel" />
 
     <EditText
         android:layout_width="0dp"
